@@ -58,7 +58,7 @@
       <name>Adam Murdoch</name>
       <id>adammurdoch</id>
       <email>adammurdoch -at- apache.org</email>
-      <organization />
+      <organization/>
     </developer>
     <developer>
       <name>James Strachan</name>
@@ -148,7 +148,7 @@
     <commons.componentid>vfs</commons.componentid>
     <commons.release.version>2.0</commons.release.version>
     <!--<commons.rc.version>RC1</commons.rc.version> -->
-    <commons.binary.suffix />
+    <commons.binary.suffix/>
     <commons.jira.id>VFS</commons.jira.id>
     <commons.jira.pid>12310495</commons.jira.pid>
     <commons.release.name>commons-vfs-${commons.release.version}</commons.release.name>
@@ -189,8 +189,8 @@
             </goals>
             <configuration>
               <target>
-                <mkdir dir="${project.build.directory}/osgi" />
-                <touch file="${project.build.directory}/osgi/MANIFEST.MF" />
+                <mkdir dir="${project.build.directory}/osgi"/>
+                <touch file="${project.build.directory}/osgi/MANIFEST.MF"/>
               </target>
             </configuration>
           </execution>
@@ -204,8 +204,8 @@
               <target>
                 <copy todir="${project.build.directory}/apidocs/META-INF">
                   <fileset dir="${vfs.parent.dir}">
-                    <include name="LICENSE.txt" />
-                    <include name="NOTICE.txt" />
+                    <include name="LICENSE.txt"/>
+                    <include name="NOTICE.txt"/>
                   </fileset>
                 </copy>
               </target>
@@ -346,7 +346,7 @@
       <dependency>
         <groupId>org.apache.commons</groupId>
         <artifactId>commons-compress</artifactId>
-        <version>1.6</version>
+        <version>1.20</version>
       </dependency>
       <dependency>
         <groupId>org.apache.jackrabbit</groupId>
